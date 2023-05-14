@@ -2,7 +2,7 @@ import { html, TemplateResult } from 'lit';
 import '../src/web-components.js';
 
 export default {
-  title: 'WebComponents',
+  title: 'lit/counter',
   component: 'web-components',
   argTypes: {
     header: { control: 'text' },

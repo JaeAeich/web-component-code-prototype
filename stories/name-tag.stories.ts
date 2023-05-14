@@ -3,7 +3,7 @@ import { tokens } from '../design-tokens/designToken.js';
 import '../src/name-tag/NameTag.js';
 
 export default {
-  title: 'NameTag',
+  title: 'FAST/NameTag',
   component: 'name-tag',
   argTypes: {
     greeting: { control: 'text' },

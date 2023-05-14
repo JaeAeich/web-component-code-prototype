@@ -64,15 +64,13 @@ const designTokens: DesignTokens = {
   borderRadii: borderRadii.borderRadii,
 };
 
-for (const [category, token] of Object.entries(designTokens)) {
+for (const token of Object.values(designTokens)) {
   for (const [tokenName, tokenValue] of Object.entries<DesignTokenItem>(
     token
   )) {
-    tokens[`${category}-${tokenName}`] = tokenValue.value;
+    tokens[`${tokenName}`] = tokenValue.value;
   }
 }
-
-export { tokens };
 ```
 ## Conclusion
 

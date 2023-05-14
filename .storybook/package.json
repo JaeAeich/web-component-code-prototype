@@ -1,3 +1,8 @@
 {
+<<<<<<< HEAD
     "type":"commonjs"
 }
+=======
+  "type": "commonjs"
+}
+>>>>>>> feat/name-tag

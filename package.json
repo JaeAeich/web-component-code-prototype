@@ -12,7 +12,7 @@
     "./web-components.js": "./dist/src/web-components.js"
   },
   "scripts": {
-    "analyze": "cem analyze --litelement",
+    "analyze": "cem analyze --fast",
     "start": "tsc && concurrently -k -r \"tsc --watch --preserveWatchOutput\" \"wds\"",
     "build": "tsc && npm run analyze -- --exclude dist",
     "prepublish": "tsc && npm run analyze -- --exclude dist",
@@ -26,7 +26,7 @@
   "dependencies": {
     "@microsoft/fast-element": "^1.12.0",
     "@microsoft/fast-foundation": "^2.49.0",
-    "lit": "^2.0.2"
+    "@microsoft/fast-react-wrapper": "^0.3.18"
   },
   "devDependencies": {
     "@custom-elements-manifest/analyzer": "^0.4.17",

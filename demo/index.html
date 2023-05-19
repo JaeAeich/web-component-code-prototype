@@ -10,20 +10,8 @@
 </head>
 <body>
   <div id="demo"></div>
-
-  <script type="module">
-    import { html, render } from 'lit';
-    import '../dist/src/web-components.js';
-
-    const header = 'Hello owc World!';
-    render(
-      html`
-        <web-components .header=${header}>
-          some light-dom
-        </web-components>
-      `,
-      document.querySelector('#demo')
-    );
+  <name-tag style="--color-primary:red"></name-tag>
+  <script type="module" src='../dist/src/index.js'>
   </script>
 </body>
 </html>
